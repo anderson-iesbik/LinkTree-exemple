@@ -1,0 +1,101 @@
+* {     /*reset de margens e espaçamentos; definir em cada classe*/
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(54, 77, 204);
+    background: linear-gradient(180deg, rgba(54, 77, 204, 1) 0%, rgba(23, 41, 139, 1) 100%);
+    color: white;
+}
+
+
+.avatar {
+    width: 6.5rem;
+    border-radius: 50%;
+    border: 0.2rem solid white;
+    box-shadow: 0 0 15px white;
+}
+
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0.5rem 0 0 0;
+}
+
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 0rem 0 0 0;
+}
+
+
+.profile {
+    margin: 1rem 0 0 0;
+    text-align: center;
+}
+
+
+.social-icons img {
+    margin: 2rem 0;
+    width: 2.5rem;
+    
+}
+
+.social-icons {
+    
+    display: flex;      /*propriedade que coloca os itens da lista na horizontal*/
+                        /*justify-content: center;    propriedade só funciona se tiver o  display: flex*/
+    justify-content: space-around;  /*propriedade que coloca os itens da lista na horizontal*/
+    list-style: none;
+}
+
+
+.links-list {
+    
+    list-style: none;
+    /*background: white;*/
+    border-radius: 8px; 
+}
+
+
+.links-list li {
+    padding: 0.5rem;
+}
+
+
+.links-list li a {      /*estilizar o link dentro da li pra não precisar definir ele como um h3 por exemplo*/
+    
+    display: block;
+
+    text-decoration: none;
+    color: #8a1884;
+    font-weight: bold;
+
+    background: white;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+
+    padding: 1rem;
+
+    margin: 0 1rem;
+    box-shadow: 0 0 15px white;
+}
+
+.links-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
